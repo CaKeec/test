@@ -1,0 +1,498 @@
+.top-c,
+.banner-c,
+.wedding-c,
+.jewelry-c,
+.activities-c,
+.designer-c,
+.footer-c
+{
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+}
+.top{
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+}
+.top-c{
+	position: relative;
+}
+.top-c .img{
+    width: 306px;
+    height: 80px;
+}
+.top-c .img .logo{
+	float: left;
+	width: 100%;
+}
+.top-c .img .logo.t{	
+	margin-top: 23px;	
+	height: 26px;
+	background: url(../img/logo1.png) no-repeat center;
+}
+.top-c .img .logo.b{
+	margin-top: 2px;	
+	height: 26px;
+	background: url(../img/logo2.png) no-repeat center;
+}
+/*导航*/
+.nav{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 734px;
+	height: 80px;
+}
+.nav .nav-item a{
+	display: block; 
+    width: 100%;
+    height: 100%;
+    color: #666;
+}
+.nav .nav-item{
+	position: relative;
+	float: left;	
+	line-height: 80px;
+    text-align: center;
+	font-size: 16px;
+	height: 80px;
+	width: 64px;
+	margin-right: 80px;
+}
+.nav .nav-item.margin{
+	margin-right: 60px;
+}
+.nav .nav-item.first{
+	margin-left: 60px;
+	width: 32px;
+}
+.nav .nav-item.first a{
+	font-weight: bolder;
+	color: #1d1d1d;
+}
+.nav-item .line{
+	display: none;
+	position: absolute;
+	bottom: 26px;
+	right: 0px;
+	width: 40px;
+	height: 1px;
+	background-color: #B9AB77;
+}
+.nav-item .line.line1{
+	right: 0px;
+	display: block;
+	width: 20px;
+}
+.nav-item:hover .line{
+	display: block;
+}
+.nav-item:hover a{
+	display: block;
+	color: #1d1d1d;
+	font-weight: bolder;
+}
+
+/*banner*/
+.banner{
+    height: 720px;
+    background: url(../img/banner.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.banner-c{
+	position: relative;
+}
+.arr{
+	display: block;
+	width: 50px;
+	height: 80px;
+}
+.arr.left{
+	position: absolute;
+    top: 50%;
+    left: -50px;
+    margin-top: -40px;
+	background: rgba(201,202,206,.9) url(../img/left.png) no-repeat center;
+}
+.arr.right{
+	position: absolute;
+    top: 50%;
+    left: auto;
+    right: -50px;
+    margin-top: -40px;
+	background: rgba(201,202,206,.9)url(../img/right.png) no-repeat center;
+}
+.banner-c .more-img{
+	position: absolute;
+	bottom: 221px;
+	right: 0;
+	width: 216px;
+	height: 61px;
+	background: url(../img/more.png) no-repeat center;
+}
+.banner-c .up{
+	position: absolute;
+	width: 52px;
+	height: 52px;
+}
+.banner-c .up.up-img{
+    bottom: 52px;
+    right: -52px;
+	background: url(../img/top.png) no-repeat right;
+}
+.banner-c .up.tel-img{
+    bottom: 0;
+    right: -52px;
+	background: url(../img/tel.png) no-repeat right;
+}
+/*分页器*/
+.a{  
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.dots{
+    position: absolute;
+    left: 50%;
+    bottom: 21px;
+    transform: translateX(-50%);
+}
+.dots .dot-item{
+	float: left;
+	width: 8px;
+	height: 8px;
+	margin: 0 18px;
+	border: 5px solid transparent;  /*(transparent 边框透明)*/
+	border-radius: 50%;
+	background-color: #BEBEC2;
+	/* 背景色只在内容区域生效 */
+	background-clip: content-box;
+}
+.dots .dot-item:hover{
+	border-color: #BEBEC2;
+	background-color: #fff;
+}
+.dots .dot-item.active{
+   	border-color: #BEBEC2;
+	background-color: #fff;
+}
+/*主体*/
+.wedding-c{
+	margin-top: 100px;
+}
+.heading{
+	margin-top: 100px;
+}
+.pix{
+	text-align: center;
+}
+.pix.title1{
+	color: #444;
+	font-size: 26px;
+}
+.pix.title2{
+	color: #c1c1c1;
+	font-size: 16px;
+}
+.news{
+	width: 572px;
+	height: 32px;
+	margin-left: 328px;
+    margin-top: 80px;
+}
+.news .new-item{
+	float: left;
+	width: 77px;
+    margin-right: 88px;
+}
+.news .new-item a{
+	color: #333;
+}
+.news .new-item.margin{
+	margin-right: 0;
+}
+.news .under{
+	display: none;
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #B9AB77;
+}
+.news .new-item:hover .under{
+    display: block;
+    color: #B9AB77;
+}
+.news .new-item.active .under{
+	display: block;
+	color: #B9AB77;
+}
+.img{
+	height: 360px;
+	margin-top: 40px;
+}
+.img .im{
+	float: left;
+	display: block;
+	width: 270px;
+	height: 100%;
+	margin-right: 40px;
+}
+.img .im.wedding1{
+	background: url(../img/wedding1.png) no-repeat;
+}
+.img .im.wedding2{
+	background: url(../img/wedding2.png) no-repeat;
+}
+.img .im.wedding3{
+	background: url(../img/wedding3.png) no-repeat;
+}
+.img .im.wedding4{
+	margin-right: 0;
+	background: url(../img/wedding4.png) no-repeat;
+}
+.im.wedding1 .p{
+    text-align: center;
+    color: #fff;
+}
+.img .im.wedding1 .p.to{
+	margin-top: 125px;
+}
+.img .im.wedding1 .p.mid{
+	margin-top: 41px;
+}	
+.img .im.wedding1 .p.under{
+	margin-top: 11px;
+}
+.more{
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 150px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	color: #2d2d2d;
+	border: 1px solid #F5F5F5;
+}
+.more a{
+	color: #2d2d2d;
+
+}
+/*珠宝*/
+.main.jewelry{
+	height: 556px;
+	background-color: #F9F9F9;
+}
+.jewelry-c{
+	overflow: hidden;
+}
+.jewelry-c .show.img{
+	margin-top: 60px;
+	height: 180px;
+	width: 100%;
+}
+.show.img .im{
+	float: left;
+	display: block;
+	width: 270px;
+	height: 180px;
+}
+.show.img .im.jewel1{
+	background: url(../img/jewel1.png) no-repeat;
+}
+.show.img .im.jewel2{
+	background: url(../img/jewel2.png) no-repeat;
+}
+.show.img .im.jewel3{
+	background: url(../img/jewel3.png) no-repeat;
+}
+.show.img .im.jewel4{
+	margin-right: 0;
+	background: url(../img/jewel4.png) no-repeat;
+}
+.more.color{
+	margin-top: 60px;
+	border-color: #E2E1E1;
+}
+.im.jewel1 .p.detil{
+    margin-top: 120px;
+	height: 60px;
+	text-indent: 17px;
+	background-color: rgb(0,0,0,.3);
+}
+.p.detil1{
+	color: #fff;
+	padding-top:12px;
+	font-size: 14px;
+}
+.p.detil2{
+	padding-bottom: 13px;
+	font-size: 12px;
+    color: #c1c1c1;
+}
+/*活动*/
+.main.activities{
+	height: 876px;
+	background: url(../img/act.png) no-repeat 0 108px;
+	background-size: 100% 354px;
+}
+.act-img{
+	margin-top: 277px;
+	width: 100%;
+	height: 334px;
+}
+.activities .act{
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 334px;
+}
+.activities .act.item1{
+    background: url(../img/act1.png) no-repeat;
+}
+.activities .act.item2{
+    background: url(../img/act2.png) no-repeat;
+}
+.activities .act.item3{
+    background: url(../img/act3.png) no-repeat;
+}
+.activities .act.item4{
+    background: url(../img/act4.png) no-repeat;
+}
+.more.color2{
+	border-color: #F5F5F5;
+}
+.act-more{
+	position: absolute;
+	color: #bebebe;
+	top: 243px;
+	left: 44px;
+	width: 46px;
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	background: url(../img/act.right.png) no-repeat right center;
+}
+/*设计师*/
+.main.designer{
+	overflow: hidden;
+	height: 664px;
+	background: url(../img/designer.png) no-repeat;
+	background-size: 100% 100%;
+}
+.heading.designer .pix.title1{
+	color: #fff;
+}
+.designers{
+	margin-top: 61px;
+	height: 453px;
+	width: 100%;
+}
+.designers .des{
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+.designers .des.img1{
+	margin-left: 100px;
+	background: url(../img/des1.png) no-repeat;
+}
+.designers .des.img2{
+     margin-left: 232px;
+     margin-right: 232px;
+	background: url(../img/des2.png) no-repeat;
+}
+.designers .des.img3{
+	margin-right: 96px;
+	background: url(../img/des3.png) no-repeat;
+}
+.intro{
+	float: left;
+	width: 277px;
+	height: 248px;
+	text-align: center;
+}
+.intro .name{
+    font-size: 24px;
+    color: #f7f5f5;
+    text-align: center;
+}
+.intro .job{
+	padding-top: 9px;
+	padding-bottom: 19px;
+	font-size: 12px;
+	color: #b9b9b9;
+}
+.intro .info{
+	font-size: 12px;
+	color: #b9b9b9;
+}
+.more-line{
+	margin: 0 auto;
+	margin-top: 69px;
+	width: 150px;
+	height: 26px;
+	border-bottom: 1px solid #BBBABA;
+}
+.more-line a{
+	color: #BBBABA;
+	display: block;
+}
+.intro.jason{
+    margin-left: 54px;
+    margin-top: 25px;
+}
+.intro.yance{
+	margin-top: 25px;
+	margin-right: 140px;
+	margin-left: 140px;
+}
+.intro.kate{
+	margin-top: 25px;
+}
+/*底部*/
+.footer{
+	height: 100px;
+	background-color: #fff;
+}
+.footer-c{
+	position: relative;
+	background-color:#fff;
+}
+.footer-c .tips{
+	font-weight: bolder;
+    font-size: 12px;
+    color: #323232;
+}
+.footer-c .tips.tip{
+   padding: 39px 0 11px 0;
+}
+.link{
+	position: absolute;
+	color: #323232;
+	font-size: 12px;
+    right: 0;
+    bottom: 44px;
+}
+.link .link-item{
+	font-weight: bolder;
+	display: inline;
+}
+.link .link-item.contact{
+	margin: 0 61px 0 69px;
+}
+.link-item .mark{
+	position: absolute;
+	top: 4px;
+	left: -14px;
+	width: 10px;
+	height: 10px;
+	background: url(../img/footer.png) no-repeat center;
+}
+.link .link-item a{
+	font-weight: bolder;
+	color: #323232;
+}

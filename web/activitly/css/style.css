@@ -1,0 +1,274 @@
+.top-c,
+.main-c,
+.footer-c
+{
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+}
+.top{
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+}
+.top-c{
+	position: relative;
+}
+.top-c .img{
+    width: 306px;
+    height: 80px;
+}
+.top-c .img .logo{
+	float: left;
+	width: 100%;
+}
+.top-c .img .logo.t{	
+	margin-top: 23px;	
+	height: 26px;
+	background: url(../img/logo1.png) no-repeat center;
+}
+.top-c .img .logo.b{
+	margin-top: 2px;	
+	height: 26px;
+	background: url(../img/logo2.png) no-repeat center;
+}
+/*导航*/
+.nav{
+	position: absolute;
+	right: 0;
+	top: 0;
+/*	width: 734px;
+	height: 80px;*/
+}
+.nav .nav-item a{
+	display: block; 
+    width: 100%;
+    height: 100%;
+    color: #666;
+}
+.nav .nav-item{
+	position: relative;
+	float: left;	
+	line-height: 80px;
+    text-align: center;
+	font-size: 16px;
+	height: 80px;
+	width: 64px;
+	margin-right: 80px;
+}
+.nav .nav-item.margin{
+	margin-right: 60px;
+}
+.nav .nav-item.first{
+	margin-left: 60px;
+	width: 32px;
+}
+.nav .nav-item.second a{
+	font-weight: bolder;
+	color: #1d1d1d;
+}
+.nav-item .line{
+	display: none;
+	position: absolute;
+	bottom: 26px;
+	right: 0px;
+	width: 40px;
+	height: 1px;
+	background-color: #B9AB77;
+}
+.nav-item .line.line2{
+	right: 0px;
+	display: block;
+	width: 20px;
+}
+.nav-item:hover .line{
+	display: block;
+}
+.nav-item:hover a{
+	display: block;
+	color: #1d1d1d;
+	font-weight: bolder;
+}
+.banner{
+	height: 270px;
+	background: url(../img/banner.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*main*/
+.main{
+	position: relative;
+	overflow: hidden;
+	height: 922px;.
+}
+.heading{
+	margin-top: 100px;
+}
+.pix{
+	text-align: center;
+}
+.pix.title1{
+	color: #444;
+	font-size: 26px;
+}
+.pix.title2{
+	color: #c1c1c1;
+	font-size: 16px;
+}
+.main1{
+	height: 200px;
+	margin-top: 60px;
+	background-color: #444;
+}
+.dress{
+	position: relative;
+	float: left;
+	margin-top: 57px;
+	margin-left: 188px;
+	width: 168px;
+	height: 79px;
+	/*background-color: pink;*/
+}
+.dress .time{
+	float: left;
+	line-height: 60px;
+	font-size: 60px;
+	color: #fff;
+}
+.dress .time1{
+	position: absolute;
+	top: 60px;
+	left: 127px;
+	font-size: 16px;
+	color: #fff;
+}
+.her{
+	font-size: 16px;
+	color: #fff;
+}
+.rick{
+	margin-top: 30px;
+	font-size: 12px;
+	color: #fff;
+}
+.text{
+	float: left;
+	margin-top: 56px;
+	margin-left: 46px;
+	width: 492px;
+	height: 80px;
+}
+.arr{
+	position: absolute;
+    right: 245px;
+    top: 50%;
+    margin-top: -13px;
+	width: 14px;	
+	height: 26px;
+	background: url(../img/bannerright.png) no-repeat;
+}
+.main-c{
+	position: relative;
+}
+.border{
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #DBDBDB;
+}
+.main1.main2{
+	margin-top: 0;
+	background-color: #fff;
+}
+.dress .time.color{
+	color: #929292;
+}
+.dress .time1.color{
+	color: #929292;
+}
+.text .her.color{
+	color: #000;
+}
+.text .rick.color{
+	margin-top: 36px;
+	color: #4d4d4d;
+}
+.dress.margin{
+	margin-left: 249px;
+}
+.text.margin{
+	margin-left: 35px;
+}
+.device{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 40px;
+}
+.pager{
+	float: left;
+	font-size: 14px;
+	display: block;
+	width: 29px;
+	height: 29px;
+	color: #C9C9C9;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 10px;
+	background-color: #fff;
+	border: 1px solid #C9C9C9;
+}
+.pager.pager1{
+	background-color: #6D6D6D;
+	color: #fff;
+}
+.pager:hover{
+	background-color: #6D6D6D;
+	color: #fff;
+}
+
+/*底部*/
+.footer{
+	height: 100px;
+	background-color: #F7F5F5;
+}
+.footer-c{
+	position: relative;
+	background-color: #F7F5F5;
+}
+.footer-c .tips{
+	font-weight: bolder;
+    font-size: 12px;
+    color: #323232;
+}
+.footer-c .tips.tip{
+   padding: 39px 0 11px 0;
+}
+.link{
+	position: absolute;
+	color: #323232;
+	font-size: 12px;
+    right: 0;
+    bottom: 44px;
+}
+.link .link-item{
+	font-weight: bolder;
+	display: inline;
+}
+.link .link-item.contact{
+	margin: 0 61px 0 69px;
+}
+.link-item .mark{
+	position: absolute;
+	top: 4px;
+	left: -14px;
+	width: 10px;
+	height: 10px;
+	background: url(../img/footer.png) no-repeat center;
+}
+.link .link-item a{
+	font-weight: bolder;
+	color: #323232;
+}
+
+
+
